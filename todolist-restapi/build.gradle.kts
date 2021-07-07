@@ -20,8 +20,6 @@ dependencies {
     val ktorVersion: String by project
 
     implementation("io.ktor:ktor-server-cio:$ktorVersion")
-    implementation("io.ktor:ktor-auth:$ktorVersion")
-    implementation("io.ktor:ktor-auth-jwt:$ktorVersion")
 
     // JWT auth
     implementation("io.ktor:ktor-auth:$ktorVersion")
